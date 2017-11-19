@@ -7,5 +7,6 @@
 
     <string name="text_login_usr">Username:</string>
     <string name="text_login_pwd">Password:</string>
+    <string name="action_log_in">Login for Ink:</string>
 
 </resources>

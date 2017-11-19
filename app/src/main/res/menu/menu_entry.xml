@@ -10,7 +10,7 @@
     <item
         android:icon="@mipmap/ic_launcher_round"
         android:title="@string/action_sign_in"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always" />
     <item
         android:icon="@mipmap/ic_launcher_round"
         android:title="@string/action_settings"
