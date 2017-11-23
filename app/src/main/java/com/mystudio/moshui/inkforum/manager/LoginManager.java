@@ -5,14 +5,14 @@ package com.mystudio.moshui.inkforum.manager;
  */
 
 public class LoginManager {
-    private boolean loginFlag = false;
 
-    public boolean isLogin() {
+
+
+    private static boolean loginFlag = false;
+
+    public static boolean isLoginFlag() {
         return loginFlag;
     }
 
-    public void setLoginFlag(boolean loginFlag) {
-        this.loginFlag = loginFlag;
-    }
 
 }
