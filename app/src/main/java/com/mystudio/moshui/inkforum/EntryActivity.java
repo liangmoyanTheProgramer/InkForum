@@ -1,6 +1,7 @@
 package com.mystudio.moshui.inkforum;
 
 import android.app.Notification;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -30,7 +31,11 @@ public class EntryActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (!LoginManager.isLoginFlag()){
-
+                    Intent intent = new Intent();
+                    intent.setClass(EntryActivity.this,LoginActivity.class);
+                    //put extra values
+                    //intent.putExtra(...args);
+                    startActivity(intent);
                 }
             }
         });
